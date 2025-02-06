@@ -22,7 +22,7 @@ client = pytumblr.TumblrRestClient(
 
 # define the tags to scrape
 TAGS = [
-    'ts4cc', 'ts3cc', 'ts2cc', 'ts1cc', 'simblr',
+    'ts4cc', 'ts3cc', 'ts2cc', 'ts1cc', 
     'sims 4 mods', 'sims 3 mods', 'sims 2 mods', 'sims mods',
     'sims 4 mod', 'sims 3 mod', 'sims 2 mod', 'sims mod',
     'the sims cc', 'sims cc'
@@ -51,11 +51,11 @@ def contains_download_link(post):
     ]).lower()
 
     download_patterns = [
-        r'download',  
         r'mediafire\.com',
         r'dropbox\.com',
         r'mega\.nz', 
         r'google\.com\/drive',
+        r'patreon\.com',
     ]
     for pattern in download_patterns:
         if re.search(pattern, content):
