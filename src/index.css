@@ -54,7 +54,7 @@ li a{
 .title{
     font-family: 'Syne', sans-serif;
     text-align: center;
-    padding: 11rem 1rem 1rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
     margin: 0;
 }
 .subtitle{
@@ -104,4 +104,13 @@ input:focus::placeholder {
     justify-content: center;
     align-items: center;
     padding: 0 1rem 0 1rem;
+}
+.featureContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-top: 2px solid #000000cb;
+    border-bottom: 2px solid #000000cb;
+}
 }
