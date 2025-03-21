@@ -46,7 +46,7 @@ li a{
     height: auto;
 }
 .heroContainer{
-    background-image: url(./assets/gradient.png);
+    background-image: url(./assets/mobile_gradient.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
