@@ -64,8 +64,27 @@ li a{
     margin: 0;
     padding: 0 1rem 1rem 1rem;
 }
-
 ul{
     display: flex;
     gap: 1rem;
+}
+input {
+    font-family: 'Epilogue', sans-serif;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    border-radius: 10px;
+    border-color: #000000;
+    border-width: 1px;
+    display: block;
+    margin: 0 auto;
+    outline: none; 
+}
+input[type="text"] {
+    width: 60%;
+    text-align: center;
+}
+input::placeholder {
+    color: #888888;
+}
+input:focus::placeholder {
+    opacity: 0;
 }

@@ -24,6 +24,8 @@ createRoot(document.getElementById('root')).render(
       </div>
       <h1 className = "title">Search all Sims mods in one place.</h1>
       <p className = "subtitle" style={{ marginTop: '-0.5rem' }}>The easiest way to browse, sort, and download Sims mods.</p>
+      <input type="text" placeholder="Search for mods by keywords"></input>
+    
     </div>
     
   </StrictMode>,
