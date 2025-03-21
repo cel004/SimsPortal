@@ -45,13 +45,24 @@ li a{
     width: 70%;
     height: auto;
 }
+.heroContainer{
+    background-image: url(./assets/gradient.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
 .title{
     font-family: 'Syne', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
-    padding: 1rem;
+    padding: 11rem 1rem 1rem 1rem;
+    margin: 0;
+}
+.subtitle{
+    font-family: 'Epilogue', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    margin: 0;
+    padding: 0 1rem 1rem 1rem;
 }
 
 ul{
