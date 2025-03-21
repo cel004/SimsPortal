@@ -28,6 +28,7 @@ createRoot(document.getElementById('root')).render(
         <input type="text" placeholder="Search for mods by keywords"></input>
         <img id="glass" src="./search_button.png"></img>
       </div>
+      <p className="text" style={{ fontWeight: '300', padding: '0 1rem 0 1rem'}}>(e.g., 'Maxis Match', 'Alpha'), game version (e.g., 'Sims 4'), or mod type (e.g., 'CAS', 'UI').</p>
     
     </div>
     

@@ -78,6 +78,11 @@ input {
     margin: 0 auto;
     outline: none; 
 }
+.text{
+    font-family: 'Epilogue', sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
 input[type="text"] {
     width: 60%;
     text-align: center;
