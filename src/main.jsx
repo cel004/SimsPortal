@@ -32,6 +32,13 @@ createRoot(document.getElementById('root')).render(
       <div className ="featureContainer">
         <h1 className ="title" style={{paddingTop: "2rem", paddingBottom: "5rem"}}>Featured Mods</h1>
       </div>
+      <div className="footerContainer">
+        <p className="text" style={{margin: "0", paddingTop: "2rem"}}>For any inquriies or suggestions, contact us at team@simsportal.com</p>
+        <ul>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Privacy & Policies</a></li>
+          </ul>
+      </div>
     </div>
     
   </StrictMode>,
