@@ -31,7 +31,7 @@ createRoot(document.getElementById('root')).render(
       </div>
       <p className="text" style={{ fontWeight: '300', padding: '0 1rem 7rem 1rem'}}>Keywords (e.g., 'Maxis Match'), game version (e.g., 'Sims 4'), or mod type (e.g., 'CAS', 'UI').</p>
       <div className ="featureContainer">
-        <h1 className ="title" style={{paddingTop: "2rem", paddingBottom: "5rem"}}>Featured Mods</h1>
+        <h1 className ="title" style={{paddingTop: "2rem", paddingBottom: "1rem"}}>Featured Mods</h1>
         <Carousel data={slides}/>
       </div>
       <div className="footerContainer">

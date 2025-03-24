@@ -4,8 +4,10 @@
     align-items: center;
     overflow: hidden;
     width: 100%;
-    height: 150px;
+    height: 180px;
     position: relative;
+    padding-top: 1rem;
+    padding-bottom: 2.5rem;
   }
   
   .carousel img {
@@ -13,13 +15,13 @@
     height: 100%;
     object-fit: cover;
     object-position: center;
-    transition: transform 0.5s ease-in-out;
   }
   
   .slide {
     border-radius: 20px;
     width: 100%;
     height: 100%;
+    border: 2px solid black;
   }
   
   .slide-hidden {
@@ -31,13 +33,13 @@
     width: 30px;
     height: auto;
     cursor: pointer;
-    padding: 1rem;
   }
   
   .indicators {
     display: flex;
     position: absolute;
     bottom: 1rem;
+    padding-top: 1rem;
   }
   
   .indicator {

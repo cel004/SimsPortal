@@ -113,6 +113,7 @@ input:focus::placeholder {
     border-top: 2px solid #000000cb;
     border-bottom: 2px solid #000000cb;
     flex-direction: column;
+    padding: 0 0 2rem 0;
 }
 .footerContainer{
     background-image: url(/assets/mobile_gradient.png);
