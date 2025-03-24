@@ -1,19 +1,19 @@
 {
     "slides": [
         {
-            "src": "./assets/chiikawa1.png",
+            "src": "chiikawa1.png",
             "alt": "chiikawa 1"
         },
         {
-            "src": "./assets/chiikawa2.png",
+            "src": "chiikawa2.png",
             "alt": "chiikawa 2"
         },
         {
-            "src": "./assets/chiikawa3.png",
+            "src": "chiikawa3.png",
             "alt": "chiikawa 3"
         },
         {
-            "src": "./assets/chiikawa4.png",
+            "src": "chiikawa4.png",
             "alt": "chiikawa 4"
         }
     ]
