@@ -1,0 +1,31 @@
+.footerContainer{
+    background-image: url(/assets/mobile_gradient.png);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 2rem;
+    display: absolute;
+    bottom: 0;
+}
+
+.footerContainer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.footerContainer .text {
+    display: flex; 
+    justify-content: center; 
+    align-content: center; 
+    margin: 0; 
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+.footerLogo {
+    width: 7%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 1rem;
+}

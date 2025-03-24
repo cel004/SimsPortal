@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import Carousel from './Components/Carousel.jsx'
+import Footer from './Components/Footer.jsx'
 import { slides } from './data/carouselData.json'
 
 
@@ -34,13 +35,7 @@ createRoot(document.getElementById('root')).render(
         <h1 className ="title" style={{paddingTop: "2rem", paddingBottom: "1rem"}}>Featured Mods</h1>
         <Carousel data={slides}/>
       </div>
-      <div className="footerContainer">
-        <p className="text">For any inquiries or suggestions, contact us at team@simsportal.com</p>
-        <ul>
-            <li><a href="#">Terms and Conditions</a></li>
-            <li><a href="#">Privacy & Policies</a></li>
-          </ul>
-      </div>
+      <Footer/>
     </div>
     
   </StrictMode>,

@@ -11,7 +11,7 @@
   }
   
   .carousel img {
-    width: 100%;
+    width: 80%;
     height: 100%;
     object-fit: cover;
     object-position: center;
@@ -33,6 +33,7 @@
     width: 30px;
     height: auto;
     cursor: pointer;
+    margin: 0 0.4rem 0 0.4rem;
   }
   
   .indicators {
