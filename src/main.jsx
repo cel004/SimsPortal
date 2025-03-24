@@ -1,7 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-// import App from './App.jsx'
+import Carousel from './Components/Carousel.jsx'
+import { slides } from './data/carouselData.json'
 
 
 createRoot(document.getElementById('root')).render(
@@ -31,6 +32,7 @@ createRoot(document.getElementById('root')).render(
       <p className="text" style={{ fontWeight: '300', padding: '0 1rem 7rem 1rem'}}>Keywords (e.g., 'Maxis Match'), game version (e.g., 'Sims 4'), or mod type (e.g., 'CAS', 'UI').</p>
       <div className ="featureContainer">
         <h1 className ="title" style={{paddingTop: "2rem", paddingBottom: "5rem"}}>Featured Mods</h1>
+        <Carousel data={slides}/>
       </div>
       <div className="footerContainer">
         <p className="text">For any inquiries or suggestions, contact us at team@simsportal.com</p>
