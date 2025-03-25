@@ -1,0 +1,80 @@
+.barContainer{
+    display: flex;
+    position: absolute;
+    top: 0;
+    padding: 1rem;
+}
+.barContainer img{
+    width: 70%;
+    height: auto;
+}
+.heroContainer{
+    background-image: url(/assets/mobile_gradient.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.title{
+    font-family: 'Syne', sans-serif;
+    text-align: center;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 0;
+}
+.subtitle{
+    font-family: 'Epilogue', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    margin: 0;
+    padding: 0 1rem 1rem 1rem;
+}
+ul{
+    display: flex;
+    gap: 1rem;
+}
+input {
+    font-family: 'Epilogue', sans-serif;
+    padding: 0.8rem 2rem 0.8rem 2rem;
+    border-radius: 15px;
+    border-color: #000000cb;
+    border-width: 2px;
+    display: block;
+    margin: 0 auto;
+    outline: none; 
+}
+.text{
+    font-family: 'Epilogue', sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+input[type="text"] {
+    width: 60%;
+    text-align: center;
+}
+input::placeholder {
+    color: #888888;
+}
+input:focus::placeholder {
+    opacity: 0;
+}
+#glass{
+    background-color: #000000;
+    padding: 0.5rem;
+    border-radius: 15px;
+    width: 8%;
+}
+.searchContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem 0 1rem;
+}
+.featureContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-top: 2px solid #000000cb;
+    border-bottom: 2px solid #000000cb;
+    flex-direction: column;
+    padding: 0 0 2rem 0;
+}
